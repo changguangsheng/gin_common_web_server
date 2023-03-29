@@ -12,6 +12,12 @@ import (
 const AppMode = "debug" // 运行环境，主要有三种：debug、test、release
 
 func main() {
+	/*
+		DebugMode比ReleaseMode多了一些额外的错误信息，生产环境不需要这些信息。
+		而TestMode是gin用于自己的单元测试，用来快速开关DebugMode。对其它开发者没什么意义。
+		可以通过gin.SetMode(AppMode)来设置mode。
+
+	*/
 	gin.SetMode(AppMode)
 
 	// TODO：1.配置初始化

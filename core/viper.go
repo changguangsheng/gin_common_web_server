@@ -15,7 +15,7 @@ import (
 // InitializeViper 优先级: 命令行 > 环境变量 > 默认值
 func InitializeViper(path ...string) *viper.Viper {
 	var config string
-
+	//fmt.Println("path: ", path)
 	if len(path) == 0 {
 		// 定义命令行flag参数，格式：flag.TypeVar(Type指针, flag名, 默认值, 帮助信息)
 		flag.StringVar(&config, "c", "", "choose config file.")
