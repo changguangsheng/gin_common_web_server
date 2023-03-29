@@ -1,2 +1,6 @@
 [east_white_common_admin/server]2023/03/29 - 00:23:09.321	[34minfo[0m	/Users/cgs/GolandProjects/gin_common_web_server/main.go:24	server run success on 	{"zap_log": "zap_log"}
 [east_white_common_admin/server]2023/03/29 - 00:25:22.715	[34minfo[0m	/Users/cgs/GolandProjects/gin_common_web_server/main.go:24	server run success on 	{"zap_log": "zap_log"}
+[east_white_common_admin/server]2023/03/29 - 13:58:26.104	[34minfo[0m	/Users/cgs/GolandProjects/gin_common_web_server/main.go:31	server run success on 	{"zap_log": "zap_log"}
+[east_white_common_admin/server]2023/03/29 - 14:03:51.759	[34minfo[0m	/Users/cgs/GolandProjects/gin_common_web_server/main.go:31	server run success on 	{"zap_log": "zap_log"}
+[east_white_common_admin/server]2023/03/29 - 14:17:00.412	[34minfo[0m	/Users/cgs/GolandProjects/gin_common_web_server/main.go:31	server run success on 	{"zap_log": "zap_log"}
+[east_white_common_admin/server]2023/03/29 - 14:17:22.284	[34minfo[0m	/Users/cgs/GolandProjects/gin_common_web_server/main.go:31	server run success on 	{"zap_log": "zap_log"}
