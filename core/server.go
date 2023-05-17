@@ -3,7 +3,7 @@ package core
 import (
 	"ewa_admin_server/global"
 	"fmt"
-	"net/http"
+	"go.uber.org/zap"
 	"time"
 
 	"github.com/fvbock/endless"
@@ -15,21 +15,18 @@ type server interface {
 }
 
 func RunServer() {
-	r := gin.Default()
-
-	r.GET("/ping", func(c *gin.Context) {
-		c.String(http.StatusOK, "pong")
-	})
+	// 初始化路由
+	Router := initialize.Routers()
 
 	address := fmt.Sprintf(":%d", global.EWA_CONFIG.App.Port)
-	s := initServer(address, r)
+	s := initServer(address, Router)
+
+	global.EWA_LOG.Info("server run success on ", zap.String("address", address))
 
 	// 保证文本顺序输出
 	time.Sleep(10 * time.Microsecond)
 
-	fmt.Println(`address`, address)
-
-	s.ListenAndServe()
+	global.EWA_LOG.Error(s.ListenAndServe().Error())
 }
 
 func initServer(address string, router *gin.Engine) server {
