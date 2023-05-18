@@ -2,6 +2,7 @@ package core
 
 import (
 	"ewa_admin_server/global"
+	"ewa_admin_server/initialize"
 	"fmt"
 	"go.uber.org/zap"
 	"time"
@@ -15,10 +16,15 @@ type server interface {
 }
 
 func RunServer() {
+	// 初始化redis服务
+	initialize.Redis()
+
 	// 初始化路由
 	Router := initialize.Routers()
-
+	
+	// 获取IP地址
 	address := fmt.Sprintf(":%d", global.EWA_CONFIG.App.Port)
+
 	s := initServer(address, Router)
 
 	global.EWA_LOG.Info("server run success on ", zap.String("address", address))

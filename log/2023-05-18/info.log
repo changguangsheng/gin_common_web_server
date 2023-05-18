@@ -1,0 +1,9 @@
+[east_white_common_admin/server]2023/05/18 - 09:56:26.347	[34minfo[0m	/Users/cgs/GolandProjects/gin_common_web_server/main.go:31	server run success on 	{"zap_log": "zap_log"}
+[east_white_common_admin/server]2023/05/18 - 09:56:26.357	[34minfo[0m	/Users/cgs/GolandProjects/gin_common_web_server/core/server.go:26	server run success on 	{"address": ":8889"}
+[east_white_common_admin/server]2023/05/18 - 09:59:08.636	[34minfo[0m	/Users/cgs/GolandProjects/gin_common_web_server/main.go:31	server run success on 	{"zap_log": "zap_log"}
+[east_white_common_admin/server]2023/05/18 - 09:59:08.644	[34minfo[0m	/Users/cgs/GolandProjects/gin_common_web_server/core/server.go:26	server run success on 	{"address": ":8889"}
+[east_white_common_admin/server]2023/05/18 - 10:00:09.130	[34minfo[0m	/Users/cgs/GolandProjects/gin_common_web_server/main.go:31	server run success on 	{"zap_log": "zap_log"}
+[east_white_common_admin/server]2023/05/18 - 10:00:09.136	[34minfo[0m	/Users/cgs/GolandProjects/gin_common_web_server/core/server.go:26	server run success on 	{"address": ":8889"}
+[east_white_common_admin/server]2023/05/18 - 10:38:05.875	[34minfo[0m	/Users/cgs/GolandProjects/gin_common_web_server/main.go:31	server run success on 	{"zap_log": "zap_log"}
+[east_white_common_admin/server]2023/05/18 - 10:38:05.887	[34minfo[0m	/Users/cgs/GolandProjects/gin_common_web_server/initialize/redis.go:24	redis connect ping response: 	{"pong": "PONG"}
+[east_white_common_admin/server]2023/05/18 - 10:38:05.887	[34minfo[0m	/Users/cgs/GolandProjects/gin_common_web_server/core/server.go:30	server run success on 	{"address": ":8889"}

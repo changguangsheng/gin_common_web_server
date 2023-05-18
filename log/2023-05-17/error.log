@@ -1,0 +1,7 @@
+[east_white_common_admin/server]2023/05/17 - 21:50:10.908	[31merror[0m	/Users/cgs/GolandProjects/gin_common_web_server/core/server.go:31	accept tcp [::]:8889: use of closed network connection
+[east_white_common_admin/server]2023/05/17 - 21:51:19.514	[31merror[0m	/Users/cgs/GolandProjects/gin_common_web_server/core/server.go:31	accept tcp [::]:8889: use of closed network connection
+[east_white_common_admin/server]2023/05/17 - 21:56:16.798	[31merror[0m	/Users/cgs/GolandProjects/gin_common_web_server/core/server.go:31	accept tcp [::]:8889: use of closed network connection
+[east_white_common_admin/server]2023/05/17 - 21:59:49.058	[31merror[0m	/Users/cgs/GolandProjects/gin_common_web_server/core/server.go:31	accept tcp [::]:8889: use of closed network connection
+[east_white_common_admin/server]2023/05/17 - 22:00:36.130	[31merror[0m	/Users/cgs/GolandProjects/gin_common_web_server/core/server.go:31	accept tcp [::]:8889: use of closed network connection
+[east_white_common_admin/server]2023/05/17 - 22:01:21.751	[31merror[0m	/Users/cgs/GolandProjects/gin_common_web_server/core/server.go:31	accept tcp [::]:8889: use of closed network connection
+[east_white_common_admin/server]2023/05/17 - 22:03:09.786	[31merror[0m	/Users/cgs/GolandProjects/gin_common_web_server/core/server.go:31	accept tcp [::]:8889: use of closed network connection
